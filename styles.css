@@ -1,0 +1,58 @@
+/* Sayfa genel stil ayarları */
+body {
+    margin: 0; /* Sayfanın dış boşluğunu kaldırır */
+    font-family: Arial, sans-serif; /* Yazı tipini ayarlar */
+    background-color: white; /* Arka plan rengi */
+  }
+  
+  /* Üst başlık alanı (isim) */
+  .header {
+    display: flex; /* İçerikleri yatayda hizalamak için flex kullanılır */
+    justify-content: center; /* Ortalanır */
+    background-color: #7EA172; /* Arka plan rengi */
+    padding: 20px; /* İç boşluk */
+    color: white; /* Yazı rengi */
+  }
+  
+  /* İletişim bilgileri alanı */
+  .content {
+    display: flex; /* Yan yana hizalama */
+    justify-content: space-evenly; /* Eşit aralıklı dağılım */
+    align-items: center; /* Dikeyde ortalama */
+    background-color: #374931; /* Koyu yeşil tonunda arka plan */
+    padding: 15px 30px; /* İç boşluklar */
+    color: white; /* Yazı rengi */
+  }
+  
+  /* Ana içerik alanı (eğitim, deneyim, vs.) */
+  .feature_title {
+    display: flex;
+    flex-direction: column; /* İçerikleri dikey diz */
+    align-items: center;
+    background-color: #7EA172;
+    padding: 30px 20px;
+    gap: 30px; /* Bölümler arası boşluk */
+  }
+  
+  /* Her bir içerik bölümü için ortak stil */
+  .section {
+    width: 80%; /* Genişlik */
+    background-color: white; /* Arka plan */
+    padding: 20px;
+    border-radius: 10px; /* Köşeleri yumuşatır */
+    color: #333;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Hafif gölge efekti */
+  }
+  
+  /* Başlık stilleri */
+  .section h2 {
+    color: #7EA172; /* Başlık rengi */
+    border-bottom: 1px solid #ccc; /* Alt çizgi */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Italic yazı stili */
+  .italic {
+    font-style: italic;
+  }
